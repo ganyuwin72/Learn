@@ -11,8 +11,10 @@ public class GirlFriend {
     //get方法：对外提供成员变量的值
 
     //作用：给成员变量name进行赋值的
-    public void setName(String n) {
-        name = n;
+    public void setName(String name) {
+        //局部变量表示测试类中调用方法传过来的数据
+        //等号的左边就表示成员位置的name
+        this.name = name;
     }
 
     //作用：对外提供name属性的
@@ -23,9 +25,9 @@ public class GirlFriend {
     //age
     //setAge：给成员变量age进行赋值的
     //getAge：对外提供成员变量age的值
-    public void setAge(int a) {
-        if (a >= 18 && a <= 50) {
-            age = a;
+    public void setAge(int age) {
+        if (age >= 18 && age <= 50) {
+            this.age = age;
         } else {
             System.out.println("非法参数");
         }
@@ -38,8 +40,8 @@ public class GirlFriend {
     //gender
     //setGender：给成员变量gender进行赋值的
     //getGender：对外提供成员变量的值的
-    public void setGender(String g) {
-        gender = g;
+    public void setGender(String gender) {
+        this.gender = gender;
     }
 
     public String getGender() {
