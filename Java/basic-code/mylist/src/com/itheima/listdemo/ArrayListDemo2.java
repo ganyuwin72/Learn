@@ -37,9 +37,9 @@ public class ArrayListDemo2 {
 
         String str = list.remove(1);
         System.out.println(str);
-
-        // 4.
-
+        
+        //FIXME: bilibili
+        // 4.打印列表
         System.out.println(list);
     }
 }
