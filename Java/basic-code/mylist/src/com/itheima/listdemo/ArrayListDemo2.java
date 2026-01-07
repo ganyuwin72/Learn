@@ -35,11 +35,26 @@ public class ArrayListDemo2 {
         boolean result3 = list.remove("eee");
         System.out.println(result3);
 
-        String str = list.remove(1);
-        System.out.println(str);
+        String str1 = list.remove(1);
+        System.out.println(str1);
+
+        // 4.修改元素
+        String str2 = list.set(1, "fff");
+        System.out.println(str2);
         
         //FIXME: bilibili
-        // 4.打印列表
+        // 5.打印列表
         System.out.println(list);
+
+        // 6.查询元素
+        String str3 = list.get(2);
+        System.out.println(str3); // ddd
+
+        // 7.遍历集合
+        for (int i = 0; i < list.size(); ++i) {
+            String s = list.get(i);
+            System.out.println(s);
+        }
+
     }
 }
