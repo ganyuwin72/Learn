@@ -1,3 +1,5 @@
+package com.itheima.test;
+
 import java.util.ArrayList;
 
 public class Test3 {
