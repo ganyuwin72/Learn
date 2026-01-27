@@ -1,0 +1,12 @@
+{
+    "vmArgs": "-Dfile.encoding=UTF-8",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "a10oopextendsdemo10.Test",
+            "projectName": "oop-extends_20cdb60"
+        }
+    ]
+}
